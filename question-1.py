@@ -5,7 +5,7 @@
 
 counter = 0
 increased = 0
-for i in range (3000):
+for i in range (2000):
     x = input()
     x = x.strip(" ")
     y = x[counter]
