@@ -1,0 +1,18 @@
+floor = 0 # Starting floor, we need to start from floor 1
+
+with open('day-ol.txt', 'r') as file: # Open file
+    data = file.read() # Get the file and turn it into a string
+data1 = len(data)
+for i in range (data1): 
+  getInput = data[i]
+  
+  if getInput == "(":
+    floor = floor + 1
+    
+  elif getInput == ")":
+    floor = floor - 1
+  print(getInput)
+  print(floor)
+
+print(floor)
+
