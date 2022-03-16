@@ -1,4 +1,4 @@
-floor = 0 # Starting floor, we need to start from floor 1
+floor = 0 # Starting floor, we need to start from floor 0
 
 with open('day-ol.txt', 'r') as file: # Open file
     data = file.read() # Get the file and turn it into a string
